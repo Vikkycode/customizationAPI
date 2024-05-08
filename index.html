@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customization api</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        /* max-width: 300px; */
+        width: 100%;
+    }
+</style>
+<body>
+    <div>
+        <label for="colorpicker">Colorpicker</label>
+        <input type="color" name="colorpicker" id="colorpicker">
+    </div>
+    <div>
+        <label for="fontFamily">Font Family</label>
+        <select name="" id="fontFamily">
+            <option value="Arial, sans-serif">Arial</option>
+            <option value="Times New Roman,serif
+            ">Times New Roman</option>
+            <option value="Courier New, monospace
+            ">Courier New, monospace</option>
+        </select>
+    </div>
+    <div>
+        <label for="fontSize">font size</label>
+        <input type="range" max="24" min="12" value="56" name="number" id="fontSize">
+        <p id="value"></p>
+    </div>
+    <div class="container">
+        <h1>customization Options</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, itaque delectus odit dignissimos iste tempora animi quos obcaecati nisi vel. Voluptas necessitatibus impedit a vero possimus aliquid eius placeat molestias!</p>
+    </div>
+    <script src="/main.js" defer></script>
+</body>
+</html>
